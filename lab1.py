@@ -71,7 +71,7 @@ def mostrar():
                 ])
             population = children[:population_size]
 
-        st.success("Mejor gen encontrado")
+        st.success(f"Mejor gen global encontrado después de {max_generations} generaciones.")
         st.write(f"Gen (binario): {best_overall[0]}")
         st.write(f"x (decimal): {binary_to_decimal(best_overall[0])}")
         st.write(f"f(x): {best_overall[1]:.4f}")
