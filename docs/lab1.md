@@ -73,7 +73,7 @@ En el cruce, los puntos donde se dividen los cromosomas de los padres se eligen 
 
 ## Mutación
 
-Cada bit de cada hijo puede mutar con probabilidad `p = 0.2`.
+En este caso, la mutación tiene una probabilidad del 20% (probabilidad de mutación de `𝑝=0.2`) de ocurrir en cada bit del cromosoma.
 
 | Cromosoma (binario) | x  | p    | f(x)  |
 | ------------------- | -- | ---- | ----- |
