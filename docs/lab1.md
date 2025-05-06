@@ -60,6 +60,15 @@ El cruce es como el "apareamiento" en la naturaleza, donde dos padres combinan s
 
 ![Padres](https://i.imgur.com/qrniDwT.png)
 
+En el cruce, los puntos donde se dividen los cromosomas de los padres se eligen al azar, lo que significa que cada vez puede ser en una posición diferente. Esto permite crear combinaciones diversas en los hijos. En este algoritmo, a partir de dos padres, se generan cuatro hijos.
+
+**Primer punto de cruce:**
+![Punto_de_cruce_1](https://i.imgur.com/CCKqZMp.png)
+
+**Segundo punto de cruce:**
+![Punto_de_cruce_2](https://i.imgur.com/owAEA2o.png)
+
+
 ## Mutación
 
 Cada bit de cada hijo puede mutar con probabilidad `p = 0.2`.
