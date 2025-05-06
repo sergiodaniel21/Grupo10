@@ -38,13 +38,11 @@ La tercera etapa del algoritmo genético consiste en la selección de los **prog
 En nuestro caso, cada individuo está representado por un código binario de 6 cifras, que simboliza una posible solución al problema. A cada uno se le asigna un puntaje a través de una función de evaluación, que nos dice qué tan buena es esa solución.
 
 
-
-
 $$
 f(x) = -\frac{35}{961}(x - 31)^2 + 40
 $$
 
-![Grafica de la funcion objetivo](../images/Figure_1.png)
+![Grafica de la funcion objetivo](https://i.imgur.com/eKSNbHq.png)
 
 En este caso, los mejores genotipos son:
 
@@ -60,7 +58,7 @@ Estos dos serán los progenitores que participarán en la etapa de cruce para ge
 
 El cruce es como el "apareamiento" en la naturaleza, donde dos padres combinan sus genes para crear nuevos hijos con características de ambos:
 
-![Padres](../images/Figure_2.png)
+![Padres](https://i.imgur.com/qrniDwT.png)
 
 ## Mutación
 
